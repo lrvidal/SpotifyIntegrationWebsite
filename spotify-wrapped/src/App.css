@@ -1,38 +1,77 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova');
+
+.title{
   text-align: center;
+  margin: auto;
+  font-family: Tahoma, sans-serif;
+  background: #000000;
+  border-radius: 25px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 20px;
+  width: 400px;
+  height: 125px;
+
+  background: linear-gradient(to right, rgb(238, 233, 233) 0%, #1DB954 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.centerElement {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: whitesmoke
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.flexbox-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 400pt;
+}
+
+.robot {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* button {
+  clear: both;
+  display: block;
+  margin: 10px auto;
+  width: 120px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #b9b41d;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+} */
+
+button:active {
+  /* transform: scale(0.98); */
+  /* Scaling button to 0.98 to its original size */
+  /* box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
+  /* Lowering the shadow */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* button:hover{
+  transform: scale(1.05)
+
+} */
