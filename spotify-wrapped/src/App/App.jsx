@@ -8,8 +8,6 @@ import LoginForm from '../LoginForm/LoginForm';
 import { Chart } from "react-google-charts";
 const { v4: uuidv4 } = require('uuid');
 
-// comment
-//commetn 2
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
 function App() {
