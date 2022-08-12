@@ -1,14 +1,20 @@
 {
-  "name": "spotify-wrapped",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "datamaps": "^0.5.9",
+    "jquery-mapael": "^2.2.0",
     "react": "^18.2.0",
+    "react-analytics-charts": "^1.2.13",
     "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.0",
     "react-scripts": "5.0.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
