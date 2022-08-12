@@ -1,14 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
-import ToDoList from './ToDoList';
+import ToDoList from '../ToDoList';
 import './App.css';
-import robot from './robot.webp';
-import NavBar from './NavBar';
-import LoginButton from './LoginButton';
-import LoginForm from './LoginForm';
+import robot from '../robot.webp';
+import NavBar from '../NavBar/NavBar';
+import LoginButton from '../LoginButton/LoginButton';
+import LoginForm from '../LoginForm/LoginForm';
 import { Chart } from "react-google-charts";
 const { v4: uuidv4 } = require('uuid');
 
-// comment
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
 function App() {
